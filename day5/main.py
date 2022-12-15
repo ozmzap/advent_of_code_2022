@@ -68,7 +68,7 @@ def part1():
                 # stacks = do_move(stacks, container_count, from_id, to_id)
                 stacks = do_multiple_move(stacks, container_count, from_id, to_id)
 
-    print(stacks)
+    # print(stacks)
     # Print the last element of each stack
     answer = ''
     for s in stacks:
